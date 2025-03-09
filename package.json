@@ -1,0 +1,14 @@
+{
+  "name": "iray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:editor-kit": "pnpm --filter=editor-kit dev",
+    "dev": "pnpm dev:editor-kit & pnpm --filter=editor-kit-demo dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.1"
+}
