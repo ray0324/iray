@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:editor-kit": "pnpm --filter=editor-kit dev",
-    "dev": "pnpm dev:editor-kit & pnpm --filter=editor-kit-demo dev"
+    "dev": "turbo run dev:prepare && turbo run dev",
+    "build": "turbo run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.6.1"
+  "packageManager": "pnpm@10.6.1",
+  "devDependencies": {
+    "turbo": "^2.4.4"
+  }
 }
