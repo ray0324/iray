@@ -6,7 +6,6 @@
   "scripts": {
     "build": "rsbuild build",
     "check": "biome check --write",
-    "dev:prepare": "echo 'No prep needed'",
     "dev": "rsbuild dev --open",
     "format": "biome format --write",
     "preview": "rsbuild preview"
